@@ -17,16 +17,26 @@ void MainScreenView::tearDownScreen()
 
 void MainScreenView::MoveLeftHandler()
 {
-    wheelListContainer.LeftMoveItem();
+    if (!modalContainer.isVisible()) {
+        wheelListContainer.LeftMoveItem();
+    }   
 }
 
 void MainScreenView::CenterSelectHandler()
 { 
-    modalContainer.setVisible(true);
-    modalContainer.invalidate();
+    if (!modalContainer.isVisible()) {
+        modalContainer.setVisible(true);
+        modalContainer.invalidate();
+    }
+    else {
+        modalContainer.setVisible(false);
+        modalContainer.invalidate();
+    }
 }
 
 void MainScreenView::MoveRightHandler()
 {
-    wheelListContainer.RightMoveItem();
+    if (!modalContainer.isVisible()) {
+        wheelListContainer.RightMoveItem();
+    }
 }

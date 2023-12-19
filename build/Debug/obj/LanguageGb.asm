@@ -15,7 +15,20 @@ __A40FB7BC_Types@hpp DB 01H
 __1ADE09AB_Unicode@hpp DB 01H
 msvcjmc	ENDS
 CONST	SEGMENT
-?indicesGb@@3QBIB DD 00H				; indicesGb
+?indicesGb@@3QBIB DD 09e2H				; indicesGb
+	DD	05e0H
+	DD	021aH
+	DD	0a55H
+	DD	0313H
+	DD	08c7H
+	DD	0119H
+	DD	082eH
+	DD	04fbH
+	DD	00H
+	DD	0408H
+	DD	06abH
+	DD	0955H
+	DD	076eH
 CONST	ENDS
 PUBLIC	__JustMyCode_Default
 ; Function compile flags: /Odt

@@ -17,3 +17,6 @@ void ModalContainer::CloseButtonPressed()
 }
 
 void ModalContainer::handleKeyEvent(uint8_t key)
+{
+
+}

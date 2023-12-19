@@ -89,11 +89,12 @@ build/MINGW32_NT-6.2/generated/simulator/src/mainBase.o: \
  generated/gui_generated/include/gui_generated/containers/WheelListItemBase.hpp \
  gui/include/gui/containers/WheelListCenter.hpp \
  generated/gui_generated/include/gui_generated/containers/WheelListCenterBase.hpp \
- touchgfx/framework/include/touchgfx/containers/ModalWindow.hpp \
  gui/include/gui/containers/ModalContainer.hpp \
  generated/gui_generated/include/gui_generated/containers/ModalContainerBase.hpp \
+ touchgfx/framework/include/touchgfx/containers/ModalWindow.hpp \
  touchgfx/framework/include/touchgfx/widgets/Button.hpp \
  touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp \
+ touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
  touchgfx/framework/include/platform/driver/lcd/LCD16bpp.hpp \
  touchgfx/framework/include/touchgfx/lcd/LCD16DebugPrinter.hpp \
  touchgfx/framework/include/touchgfx/widgets/canvas/CWRVectorRenderer.hpp \
@@ -299,15 +300,17 @@ gui/include/gui/containers/WheelListCenter.hpp:
 
 generated/gui_generated/include/gui_generated/containers/WheelListCenterBase.hpp:
 
-touchgfx/framework/include/touchgfx/containers/ModalWindow.hpp:
-
 gui/include/gui/containers/ModalContainer.hpp:
 
 generated/gui_generated/include/gui_generated/containers/ModalContainerBase.hpp:
 
+touchgfx/framework/include/touchgfx/containers/ModalWindow.hpp:
+
 touchgfx/framework/include/touchgfx/widgets/Button.hpp:
 
 touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:
+
+touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
 
 touchgfx/framework/include/platform/driver/lcd/LCD16bpp.hpp:
 

@@ -22,9 +22,34 @@ __238B092C_GeneratedFont@hpp DB 01H
 __D0EF9D41_TypedTextDatabase@cpp DB 01H
 msvcjmc	ENDS
 CONST	SEGMENT
-?typedText_database_DEFAULT@@3QBUTypedTextData@TypedText@touchgfx@@B DB 00H ; typedText_database_DEFAULT
+?typedText_database_DEFAULT@@3QBUTypedTextData@TypedText@touchgfx@@B DB 02H ; typedText_database_DEFAULT
 	DB	00H
-	ORG $+2
+	DB	02H
+	DB	00H
+	DB	02H
+	DB	00H
+	DB	02H
+	DB	00H
+	DB	02H
+	DB	00H
+	DB	02H
+	DB	00H
+	DB	02H
+	DB	00H
+	DB	02H
+	DB	00H
+	DB	02H
+	DB	00H
+	DB	02H
+	DB	00H
+	DB	02H
+	DB	00H
+	DB	02H
+	DB	00H
+	DB	02H
+	DB	00H
+	DB	02H
+	DB	00H
 ?typedTextDatabaseArray@@3QBQBUTypedTextData@TypedText@touchgfx@@B DD FLAT:?typedText_database_DEFAULT@@3QBUTypedTextData@TypedText@touchgfx@@B ; typedTextDatabaseArray
 CONST	ENDS
 PUBLIC	?getInstance@TypedTextDatabase@@YAPBUTypedTextData@TypedText@touchgfx@@G@Z ; TypedTextDatabase::getInstance
@@ -108,7 +133,7 @@ text$di	ENDS
 _TEXT	SEGMENT
 ?getInstanceSize@TypedTextDatabase@@YAGXZ PROC		; TypedTextDatabase::getInstanceSize, COMDAT
 ; File C:\TouchGFXProjects\WheelListDemo\generated\texts\src\TypedTextDatabase.cpp
-; Line 39
+; Line 52
 	push	ebp
 	mov	ebp, esp
 	sub	esp, 192				; 000000c0H
@@ -121,9 +146,9 @@ _TEXT	SEGMENT
 	rep stosd
 	mov	ecx, OFFSET __D0EF9D41_TypedTextDatabase@cpp
 	call	@__CheckForDebuggerJustMyCode@4
-; Line 40
-	xor	eax, eax
-; Line 41
+; Line 53
+	mov	eax, 14					; 0000000eH
+; Line 54
 	pop	edi
 	pop	esi
 	pop	ebx
@@ -142,7 +167,7 @@ tv65 = -196						; size = 4
 _fontId$ = 8						; size = 2
 ?resetFont@TypedTextDatabase@@YAXG@Z PROC		; TypedTextDatabase::resetFont, COMDAT
 ; File C:\TouchGFXProjects\WheelListDemo\generated\texts\src\TypedTextDatabase.cpp
-; Line 56
+; Line 69
 	push	ebp
 	mov	ebp, esp
 	sub	esp, 196				; 000000c4H
@@ -155,7 +180,7 @@ _fontId$ = 8						; size = 2
 	rep stosd
 	mov	ecx, OFFSET __D0EF9D41_TypedTextDatabase@cpp
 	call	@__CheckForDebuggerJustMyCode@4
-; Line 57
+; Line 70
 	movzx	eax, WORD PTR _fontId$[ebp]
 	mov	DWORD PTR tv65[ebp], eax
 	cmp	DWORD PTR tv65[ebp], 0
@@ -166,29 +191,29 @@ _fontId$ = 8						; size = 2
 	je	SHORT $LN6@resetFont
 	jmp	SHORT $LN1@resetFont
 $LN4@resetFont:
-; Line 60
+; Line 73
 	call	?getFont_verdana_20_4bpp@@YAAAVGeneratedFont@touchgfx@@XZ ; getFont_verdana_20_4bpp
 	mov	ecx, 4
 	imul	edx, ecx, 0
 	mov	DWORD PTR ?touchgfx_fonts@@3PAPBVFont@touchgfx@@A[edx], eax
-; Line 61
+; Line 74
 	jmp	SHORT $LN1@resetFont
 $LN5@resetFont:
-; Line 63
+; Line 76
 	call	?getFont_verdana_40_4bpp@@YAAAVGeneratedFont@touchgfx@@XZ ; getFont_verdana_40_4bpp
 	mov	ecx, 4
 	shl	ecx, 0
 	mov	DWORD PTR ?touchgfx_fonts@@3PAPBVFont@touchgfx@@A[ecx], eax
-; Line 64
+; Line 77
 	jmp	SHORT $LN1@resetFont
 $LN6@resetFont:
-; Line 66
+; Line 79
 	call	?getFont_verdana_10_4bpp@@YAAAVGeneratedFont@touchgfx@@XZ ; getFont_verdana_10_4bpp
 	mov	ecx, 4
 	shl	ecx, 1
 	mov	DWORD PTR ?touchgfx_fonts@@3PAPBVFont@touchgfx@@A[ecx], eax
 $LN1@resetFont:
-; Line 69
+; Line 82
 	pop	edi
 	pop	esi
 	pop	ebx
@@ -208,7 +233,7 @@ _fontId$ = 8						; size = 2
 _font$ = 12						; size = 4
 ?setFont@TypedTextDatabase@@YAPBVFont@touchgfx@@GPBV23@@Z PROC ; TypedTextDatabase::setFont, COMDAT
 ; File C:\TouchGFXProjects\WheelListDemo\generated\texts\src\TypedTextDatabase.cpp
-; Line 49
+; Line 62
 	push	ebp
 	mov	ebp, esp
 	sub	esp, 204				; 000000ccH
@@ -221,17 +246,17 @@ _font$ = 12						; size = 4
 	rep stosd
 	mov	ecx, OFFSET __D0EF9D41_TypedTextDatabase@cpp
 	call	@__CheckForDebuggerJustMyCode@4
-; Line 50
+; Line 63
 	movzx	eax, WORD PTR _fontId$[ebp]
 	mov	ecx, DWORD PTR ?touchgfx_fonts@@3PAPBVFont@touchgfx@@A[eax*4]
 	mov	DWORD PTR _old$[ebp], ecx
-; Line 51
+; Line 64
 	movzx	eax, WORD PTR _fontId$[ebp]
 	mov	ecx, DWORD PTR _font$[ebp]
 	mov	DWORD PTR ?touchgfx_fonts@@3PAPBVFont@touchgfx@@A[eax*4], ecx
-; Line 52
+; Line 65
 	mov	eax, DWORD PTR _old$[ebp]
-; Line 53
+; Line 66
 	pop	edi
 	pop	esi
 	pop	ebx
@@ -248,7 +273,7 @@ _TEXT	ENDS
 _TEXT	SEGMENT
 ?getFonts@TypedTextDatabase@@YAPAPBVFont@touchgfx@@XZ PROC ; TypedTextDatabase::getFonts, COMDAT
 ; File C:\TouchGFXProjects\WheelListDemo\generated\texts\src\TypedTextDatabase.cpp
-; Line 44
+; Line 57
 	push	ebp
 	mov	ebp, esp
 	sub	esp, 192				; 000000c0H
@@ -261,9 +286,9 @@ _TEXT	SEGMENT
 	rep stosd
 	mov	ecx, OFFSET __D0EF9D41_TypedTextDatabase@cpp
 	call	@__CheckForDebuggerJustMyCode@4
-; Line 45
+; Line 58
 	mov	eax, OFFSET ?touchgfx_fonts@@3PAPBVFont@touchgfx@@A ; touchgfx_fonts
-; Line 46
+; Line 59
 	pop	edi
 	pop	esi
 	pop	ebx
@@ -281,7 +306,7 @@ _TEXT	SEGMENT
 _id$ = 8						; size = 2
 ?getInstance@TypedTextDatabase@@YAPBUTypedTextData@TypedText@touchgfx@@G@Z PROC ; TypedTextDatabase::getInstance, COMDAT
 ; File C:\TouchGFXProjects\WheelListDemo\generated\texts\src\TypedTextDatabase.cpp
-; Line 34
+; Line 47
 	push	ebp
 	mov	ebp, esp
 	sub	esp, 192				; 000000c0H
@@ -294,10 +319,10 @@ _id$ = 8						; size = 2
 	rep stosd
 	mov	ecx, OFFSET __D0EF9D41_TypedTextDatabase@cpp
 	call	@__CheckForDebuggerJustMyCode@4
-; Line 35
+; Line 48
 	movzx	eax, WORD PTR _id$[ebp]
 	mov	eax, DWORD PTR ?typedTextDatabaseArray@@3QBQBUTypedTextData@TypedText@touchgfx@@B[eax*4]
-; Line 36
+; Line 49
 	pop	edi
 	pop	esi
 	pop	ebx

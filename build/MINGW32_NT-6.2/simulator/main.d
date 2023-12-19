@@ -88,11 +88,12 @@ build/MINGW32_NT-6.2/simulator/main.o: simulator/main.cpp \
  generated/gui_generated/include/gui_generated/containers/WheelListItemBase.hpp \
  gui/include/gui/containers/WheelListCenter.hpp \
  generated/gui_generated/include/gui_generated/containers/WheelListCenterBase.hpp \
- touchgfx/framework/include/touchgfx/containers/ModalWindow.hpp \
  gui/include/gui/containers/ModalContainer.hpp \
  generated/gui_generated/include/gui_generated/containers/ModalContainerBase.hpp \
+ touchgfx/framework/include/touchgfx/containers/ModalWindow.hpp \
  touchgfx/framework/include/touchgfx/widgets/Button.hpp \
  touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp \
+ touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
  generated/gui_generated/include/gui_generated/common/SimConstants.hpp \
  touchgfx/framework/include/platform/driver/touch/SDL2TouchController.hpp \
  generated/simulator/include/simulator/mainBase.hpp
@@ -275,15 +276,17 @@ gui/include/gui/containers/WheelListCenter.hpp:
 
 generated/gui_generated/include/gui_generated/containers/WheelListCenterBase.hpp:
 
-touchgfx/framework/include/touchgfx/containers/ModalWindow.hpp:
-
 gui/include/gui/containers/ModalContainer.hpp:
 
 generated/gui_generated/include/gui_generated/containers/ModalContainerBase.hpp:
 
+touchgfx/framework/include/touchgfx/containers/ModalWindow.hpp:
+
 touchgfx/framework/include/touchgfx/widgets/Button.hpp:
 
 touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:
+
+touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
 
 generated/gui_generated/include/gui_generated/common/SimConstants.hpp:
 

@@ -43,9 +43,14 @@ build/MINGW32_NT-6.2/gui/src/containers/ModalContainer.o: \
  touchgfx/framework/include/touchgfx/hal/Gestures.hpp \
  touchgfx/framework/include/touchgfx/transitions/Transition.hpp \
  gui/include/gui/model/Model.hpp \
+ touchgfx/framework/include/touchgfx/containers/ModalWindow.hpp \
+ touchgfx/framework/include/touchgfx/widgets/Box.hpp \
  touchgfx/framework/include/touchgfx/widgets/Image.hpp \
  touchgfx/framework/include/touchgfx/widgets/Button.hpp \
- touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp
+ touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp \
+ touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
+ touchgfx/framework/include/touchgfx/TypedText.hpp \
+ touchgfx/framework/include/touchgfx/Texts.hpp
 
 gui/include/gui/containers/ModalContainer.hpp:
 
@@ -133,8 +138,18 @@ touchgfx/framework/include/touchgfx/transitions/Transition.hpp:
 
 gui/include/gui/model/Model.hpp:
 
+touchgfx/framework/include/touchgfx/containers/ModalWindow.hpp:
+
+touchgfx/framework/include/touchgfx/widgets/Box.hpp:
+
 touchgfx/framework/include/touchgfx/widgets/Image.hpp:
 
 touchgfx/framework/include/touchgfx/widgets/Button.hpp:
 
 touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:
+
+touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
+
+touchgfx/framework/include/touchgfx/TypedText.hpp:
+
+touchgfx/framework/include/touchgfx/Texts.hpp:
