@@ -1,0 +1,318 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "MainScreen",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "Background",
+            "Width": 320,
+            "Height": 240,
+            "RelativeFilename": "__generated\\light_theme_images_backgrounds_320x240_shady_waves.png"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "wheelListContainer",
+            "Y": 45,
+            "Width": 320,
+            "Height": 150,
+            "CustomContainerDefinitionName": "WheelListContainer"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "modalContainer",
+            "Width": 320,
+            "Height": 240,
+            "Visible": false,
+            "CustomContainerDefinitionName": "ModalContainer"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "OpenPopUpInteraction",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked",
+              "ButtonKey": 2
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "modalContainer"
+            }
+          },
+          {
+            "InteractionName": "LeftInteraction",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked",
+              "ButtonKey": 49
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "MoveLeftHandler"
+            }
+          },
+          {
+            "InteractionName": "SelectInteraction",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked",
+              "ButtonKey": 50
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "CenterSelectHandler"
+            }
+          },
+          {
+            "InteractionName": "RightInteraction",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked",
+              "ButtonKey": 51
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "MoveRightHandler"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "WheelListContainer",
+        "Y": 45,
+        "Width": 320,
+        "Height": 150,
+        "Components": [
+          {
+            "Type": "ScrollWheel",
+            "Name": "scrollWheel",
+            "Y": 31,
+            "Width": 320,
+            "Height": 89,
+            "SelectedItemOffset": 78,
+            "UseSelectedStyle": true,
+            "SelectedItemTemplateName": "WheelListCenter",
+            "MarginBefore": 3,
+            "MarginAfter": 3,
+            "IsHorizontal": true,
+            "IsCircular": true,
+            "ItemTemplateName": "WheelListItem",
+            "NumberofItems": 14,
+            "ItemMargin": 9,
+            "Easing": "Cubic",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 4.0,
+            "DragAcceleration": 1.0
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "OpenPopUpInteraction",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "OpenSTM32Details"
+            }
+          },
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionNone"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "WheelListItem",
+        "Width": 160,
+        "Height": 89,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "BorderSmall",
+            "X": 9,
+            "Y": 4,
+            "Width": 143,
+            "Height": 80,
+            "RelativeFilename": "Border_Small.png",
+            "Alpha": 100
+          },
+          {
+            "Type": "Image",
+            "Name": "ItemSTM32",
+            "X": 9,
+            "Y": 4,
+            "Width": 143,
+            "Height": 80,
+            "RelativeFilename": "STM32_Small\\Label_STM32CubeF0_Small.png"
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "WheelListCenter",
+        "Width": 160,
+        "Height": 89,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "ItemSTM32",
+            "Width": 160,
+            "Height": 89,
+            "RelativeFilename": "STM32_Midium\\Label_STM32CubeF0.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "BorderCenter",
+            "Width": 160,
+            "Height": 89,
+            "RelativeFilename": "Border_Default.png",
+            "Alpha": 151
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "ModalContainer",
+        "Width": 320,
+        "Height": 240,
+        "Components": [
+          {
+            "Type": "ModalWindow",
+            "Name": "modalWindow",
+            "Width": 320,
+            "Height": 240,
+            "FileName": "ModalBackground.png",
+            "ModalX": 10,
+            "ModalY": 30,
+            "ModalWidth": 300,
+            "ModalHeight": 180,
+            "Alpha": 150,
+            "Components": [
+              {
+                "Type": "Button",
+                "Name": "CloseButton",
+                "X": 250,
+                "Y": 15,
+                "Width": 32,
+                "Height": 32,
+                "Visible": false,
+                "Pressed": "Exit.png",
+                "Released": "Exit.png"
+              },
+              {
+                "Type": "Image",
+                "Name": "ImageSTM32Series",
+                "X": 13,
+                "Y": 1,
+                "Width": 160,
+                "Height": 89,
+                "RelativeFilename": "STM32_Midium\\Label_STM32CubeF0.png"
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "DeviceDescriptionTxt",
+            "X": 23,
+            "Y": 129,
+            "Width": 275,
+            "Height": 70,
+            "TextId": "stm32f0Des",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "WideTextAction": 1
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "PopUpCloseInteraction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "CloseButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "CloseButtonPressed"
+            }
+          },
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionNone"
+            }
+          }
+        ]
+      }
+    ],
+    "Name": "WheelListDemo",
+    "Resolution": {
+      "Width": 320,
+      "Height": 240
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "MainScreen",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "touchgfx",
+    "UIPath": ".",
+    "ApplicationTemplateName": "Simulator",
+    "ApplicationTemplateVersion": "2.0.0",
+    "ApplicationTemplateDescription": "Simulator Application Template",
+    "AvailableColorDepths": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      24
+    ],
+    "AvailableLCDs": {
+      "1": "LCD1bpp",
+      "2": "LCD2bpp",
+      "4": "LCD4bpp",
+      "8": "LCD8bpp_ARGB2222",
+      "16": "LCD16bpp",
+      "24": "LCD24bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "",
+    "FlashTargetCommand": "",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "AdditionalFeatures": [
+      "VectorFonts"
+    ]
+  },
+  "Version": "4.23.0",
+  "CreatedBy": "4.23.0"
+}

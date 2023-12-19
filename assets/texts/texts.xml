@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.23.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1">
+      <Text Id="stm32wlDes" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">The STM32WL System-On-Chip integrates both a general purpose microcontroller and a sub-GHz radio on the same chip.</Translation>
+      </Text>
+      <Text Id="stm32wbDes" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Based on an Arm® Cortex®‐M4 core running at 64 MHz (application processor) and an Arm® Cortex®‐M0+ core at 32 MHz (network processor), the STM32WB wireless microcontroller is a self-sufficient solution.</Translation>
+      </Text>
+      <Text Id="stm32mp1Des" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">A general-purpose microprocessor portfolio enabling easy development for a broad range of applications, the STM32MP1 series has the ability to support multiple and flexible applications, achieving the best performance and power figures at any time.</Translation>
+      </Text>
+      <Text Id="stm32l4Des" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">ST has built a new architecture to reach best-in-class ultra-low-power figures thanks to its high flexibility.</Translation>
+      </Text>
+      <Text Id="stm32l1Des" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">ST’s Arm® Cortex®-M3-based STM32L1 series uses ST’s proprietary ultra-low-leakage process technology with an innovative autonomous dynamic voltage scaling and 5 low-power modes offering unprecedented platform flexibility to fit any application.</Translation>
+      </Text>
+      <Text Id="stm32l0Des" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">The STM32L0 series is ST’s entry-level range of 32-bit ultra-low-power MCUs designed to achieve an outstandingly low power consumption level.</Translation>
+      </Text>
+      <Text Id="stm32h7Des" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">The Arm® Cortex®-M7-based STM32H7 MCU series leverages ST’s Non-Volatile-Memory (NVM) technology to reach the industry’s highest benchmark scores for Cortex-M-based microcontrollers with up to 1327 DMIPS/ 3224 CoreMark executing from embedded Flash memory.</Translation>
+      </Text>
+      <Text Id="stm32g0Des" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">The new STM32G0 Series is not simply another Arm® Cortex®-M0+ microcontroller. It sets a new definition of what an efficient microcontroller must offer.</Translation>
+      </Text>
+      <Text Id="stm32f7Des" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Taking advantage of ST’s ART Accelerator™ as well as an L1 cache, STM32F7 microcontrollers deliver the maximum theoretical performance of the Cortex-M7 core, regardless if code is executed from embedded Flash or external memory.</Translation>
+      </Text>
+      <Text Id="stm32f4Des" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">The Arm® Cortex®-M4-based STM32F4 MCU series leverages ST’s NVM technology and ART Accelerator™ to reach the industry’s highest benchmark scores for Cortex-M-based microcontrollers with up to 225 DMIPS/608 CoreMark executing from Flash memory at up to 180 MHz operating frequency.</Translation>
+      </Text>
+      <Text Id="stm32f3Des" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">The STM32F3 Series combines a 32-bit Arm® Cortex®-M4 core (with FPU and DSP instructions) running at 72 MHz with a high number of integrated analog peripherals leading to cost reduction at application level and simplifying application design.</Translation>
+      </Text>
+      <Text Id="stm32f2Des" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">The Arm® Cortex®-M3-based STM32 F2 series uses ST’s advanced 90 nm NVM process technology with the innovative adaptive real-time memory accelerator (ART Accelerator™) and multi-layer bus matrix.</Translation>
+      </Text>
+      <Text Id="stm32f1Des" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">ST's STM32F1 Series of mainstream MCUs covers the needs of a large variety of applications in the industrial, medical and consumer markets. </Translation>
+      </Text>
+      <Text Id="stm32f0Des" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Devices in ST’s Arm® Cortex®-M0-based STM32F0 Series deliver 32-bit performance while featuring the essentials of the STM32 family and are particularly suited for cost-sensitive applications.</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="Unsorted" />
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>
