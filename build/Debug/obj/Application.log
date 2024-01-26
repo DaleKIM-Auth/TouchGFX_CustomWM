@@ -1,8 +1,180 @@
-﻿  Converting images
+﻿  Clean-up generated files: ..\..\generated\fonts;..\..\generated\images;..\..\generated\texts;..\..\generated\videos
+  Converting images
   Reading ./application.config
   Reading ./target.config
+  Generating generated/images/src/image_Border_Default.cpp
+  Generating generated/images/src/image_Border_Small.cpp
+  Generating generated/images/src/image_Exit.cpp
+  Generating generated/images/src/STM32_Midium/image_Label_STM32CubeF0.cpp
+  Generating generated/images/src/STM32_Large/image_Label_STM32CubeF0_Large.cpp
+  Generating generated/images/src/STM32_Small/image_Label_STM32CubeF0_Small.cpp
+  Generating generated/images/src/STM32_Midium/image_Label_STM32CubeF1.cpp
+  Generating generated/images/src/STM32_Large/image_Label_STM32CubeF1_Large.cpp
+  Generating generated/images/src/STM32_Small/image_Label_STM32CubeF1_Small.cpp
+  Generating generated/images/src/STM32_Midium/image_Label_STM32CubeF2.cpp
+  Generating generated/images/src/STM32_Large/image_Label_STM32CubeF2_Large.cpp
+  Generating generated/images/src/STM32_Small/image_Label_STM32CubeF2_Small.cpp
+  Generating generated/images/src/STM32_Midium/image_Label_STM32CubeF3.cpp
+  Generating generated/images/src/STM32_Large/image_Label_STM32CubeF3_Large.cpp
+  Generating generated/images/src/STM32_Small/image_Label_STM32CubeF3_Small.cpp
+  Generating generated/images/src/STM32_Midium/image_Label_STM32CubeF4.cpp
+  Generating generated/images/src/STM32_Large/image_Label_STM32CubeF4_Large.cpp
+  Generating generated/images/src/STM32_Small/image_Label_STM32CubeF4_Small.cpp
+  Generating generated/images/src/STM32_Midium/image_Label_STM32CubeF7.cpp
+  Generating generated/images/src/STM32_Large/image_Label_STM32CubeF7_Large.cpp
+  Generating generated/images/src/STM32_Small/image_Label_STM32CubeF7_Small.cpp
+  Generating generated/images/src/STM32_Midium/image_Label_STM32CubeG0.cpp
+  Generating generated/images/src/STM32_Large/image_Label_STM32CubeG0_Large.cpp
+  Generating generated/images/src/STM32_Small/image_Label_STM32CubeG0_Small.cpp
+  Generating generated/images/src/STM32_Midium/image_Label_STM32CubeH7.cpp
+  Generating generated/images/src/STM32_Large/image_Label_STM32CubeH7_Large.cpp
+  Generating generated/images/src/STM32_Small/image_Label_STM32CubeH7_Small.cpp
+  Generating generated/images/src/STM32_Midium/image_Label_STM32CubeL0.cpp
+  Generating generated/images/src/STM32_Large/image_Label_STM32CubeL0_Large.cpp
+  Generating generated/images/src/STM32_Small/image_Label_STM32CubeL0_Small.cpp
+  Generating generated/images/src/STM32_Midium/image_Label_STM32CubeL1.cpp
+  Generating generated/images/src/STM32_Large/image_Label_STM32CubeL1_Large.cpp
+  Generating generated/images/src/STM32_Small/image_Label_STM32CubeL1_Small.cpp
+  Generating generated/images/src/STM32_Midium/image_Label_STM32CubeL4.cpp
+  Generating generated/images/src/STM32_Large/image_Label_STM32CubeL4_Large.cpp
+  Generating generated/images/src/STM32_Small/image_Label_STM32CubeL4_Small.cpp
+  Generating generated/images/src/STM32_Midium/image_Label_STM32CubeMP1.cpp
+  Generating generated/images/src/STM32_Large/image_Label_STM32CubeMP1_Large.cpp
+  Generating generated/images/src/STM32_Small/image_Label_STM32CubeMP1_Small.cpp
+  Generating generated/images/src/STM32_Midium/image_Label_STM32CubeWB.cpp
+  Generating generated/images/src/STM32_Large/image_Label_STM32CubeWB_Large.cpp
+  Generating generated/images/src/STM32_Small/image_Label_STM32CubeWB_Small.cpp
+  Generating generated/images/src/STM32_Midium/image_Label_STM32CubeWL.cpp
+  Generating generated/images/src/STM32_Large/image_Label_STM32CubeWL_Large.cpp
+  Generating generated/images/src/STM32_Small/image_Label_STM32CubeWL_Small.cpp
+  Generating generated/images/src/__generated/image_light_theme_images_backgrounds_320x240_shady_waves.cpp
+  Generating generated/images/src/image_light_theme_images_backgrounds_shattered_rain.cpp
+  Generating generated/images/src/image_ModalBackground.cpp
+  Generating generated/images/include/BitmapDatabase.hpp
+  Generating generated/images/include/images/BitmapDatabase.hpp
+  Generating generated/images/src/BitmapDatabase.cpp
+  Generating generated/images/include/images/SVGDatabase.hpp
+  Generating generated/images/src/SVGDatabase.cpp
   Converting texts and fonts
+  Cleaning generated files from ..\..\generated\texts and ..\..\generated\fonts.
+  Generating generated/fonts/include/fonts/GeneratedFont.hpp
+  Generating generated/fonts/src/GeneratedFont.cpp
+  Generating generated/fonts/include/fonts/UnmappedDataFont.hpp
+  Generating generated/fonts/src/UnmappedDataFont.cpp
+  Generating generated/fonts/include/fonts/CachedFont.hpp
+  Generating generated/fonts/src/CachedFont.cpp
+  Generating generated/fonts/include/fonts/FontCache.hpp
+  Generating generated/fonts/src/FontCache.cpp
+  Generating generated/fonts/src/ApplicationFontProvider.cpp
+  Generating generated/fonts/include/fonts/ApplicationFontProvider.hpp
+  Generating generated/texts/include/texts/TextKeysAndLanguages.hpp
+  Generating generated/texts/include/texts/TypedTextDatabase.hpp
+  Generating generated/texts/src/TypedTextDatabase.cpp
+  Generating generated/texts/src/Texts.cpp
+  Generating generated/texts/src/LanguageGb.cpp
+  WARNING - Char 0x2010 is used but does not exist in the font!
+  Generating ..\..\generated\fonts/src/Font_verdana_10_4bpp_0.cpp
+  Generating ..\..\generated\fonts/src/Font_verdana_10_4bpp_4.cpp
+  Generating ..\..\generated\fonts/src/Table_verdana_10_4bpp.cpp
+  Generating ..\..\generated\fonts/src/Kerning_verdana_10_4bpp.cpp
+  Generating ..\..\generated\fonts/src/Font_verdana_20_4bpp_0.cpp
+  Generating ..\..\generated\fonts/src/Table_verdana_20_4bpp.cpp
+  Generating ..\..\generated\fonts/src/Kerning_verdana_20_4bpp.cpp
+  Generating ..\..\generated\fonts/src/Font_verdana_40_4bpp_0.cpp
+  Generating ..\..\generated\fonts/src/Table_verdana_40_4bpp.cpp
+  Generating ..\..\generated\fonts/src/Kerning_verdana_40_4bpp.cpp
+  Generating generated/fonts/src/VectorFontRendererBuffers.cpp
   Converting videos
+  Generating generated/videos/include/videos/VideoDatabase.hpp
   Creating compile items for all generated source files: ..\..\generated\fonts\src\ApplicationFontProvider.cpp;..\..\generated\fonts\src\CachedFont.cpp;..\..\generated\fonts\src\FontCache.cpp;..\..\generated\fonts\src\Font_verdana_10_4bpp_0.cpp;..\..\generated\fonts\src\Font_verdana_10_4bpp_4.cpp;..\..\generated\fonts\src\Font_verdana_20_4bpp_0.cpp;..\..\generated\fonts\src\Font_verdana_40_4bpp_0.cpp;..\..\generated\fonts\src\GeneratedFont.cpp;..\..\generated\fonts\src\Kerning_verdana_10_4bpp.cpp;..\..\generated\fonts\src\Kerning_verdana_20_4bpp.cpp;..\..\generated\fonts\src\Kerning_verdana_40_4bpp.cpp;..\..\generated\fonts\src\Table_verdana_10_4bpp.cpp;..\..\generated\fonts\src\Table_verdana_20_4bpp.cpp;..\..\generated\fonts\src\Table_verdana_40_4bpp.cpp;..\..\generated\fonts\src\UnmappedDataFont.cpp;..\..\generated\fonts\src\VectorFontRendererBuffers.cpp;..\..\generated\images\src\BitmapDatabase.cpp;..\..\generated\images\src\image_Border_Default.cpp;..\..\generated\images\src\image_Border_Small.cpp;..\..\generated\images\src\image_Exit.cpp;..\..\generated\images\src\image_light_theme_images_backgrounds_shattered_rain.cpp;..\..\generated\images\src\image_ModalBackground.cpp;..\..\generated\images\src\STM32_Large\image_Label_STM32CubeF0_Large.cpp;..\..\generated\images\src\STM32_Large\image_Label_STM32CubeF1_Large.cpp;..\..\generated\images\src\STM32_Large\image_Label_STM32CubeF2_Large.cpp;..\..\generated\images\src\STM32_Large\image_Label_STM32CubeF3_Large.cpp;..\..\generated\images\src\STM32_Large\image_Label_STM32CubeF4_Large.cpp;..\..\generated\images\src\STM32_Large\image_Label_STM32CubeF7_Large.cpp;..\..\generated\images\src\STM32_Large\image_Label_STM32CubeG0_Large.cpp;..\..\generated\images\src\STM32_Large\image_Label_STM32CubeH7_Large.cpp;..\..\generated\images\src\STM32_Large\image_Label_STM32CubeL0_Large.cpp;..\..\generated\images\src\STM32_Large\image_Label_STM32CubeL1_Large.cpp;..\..\generated\images\src\STM32_Large\image_Label_STM32CubeL4_Large.cpp;..\..\generated\images\src\STM32_Large\image_Label_STM32CubeMP1_Large.cpp;..\..\generated\images\src\STM32_Large\image_Label_STM32CubeWB_Large.cpp;..\..\generated\images\src\STM32_Large\image_Label_STM32CubeWL_Large.cpp;..\..\generated\images\src\STM32_Midium\image_Label_STM32CubeF0.cpp;..\..\generated\images\src\STM32_Midium\image_Label_STM32CubeF1.cpp;..\..\generated\images\src\STM32_Midium\image_Label_STM32CubeF2.cpp;..\..\generated\images\src\STM32_Midium\image_Label_STM32CubeF3.cpp;..\..\generated\images\src\STM32_Midium\image_Label_STM32CubeF4.cpp;..\..\generated\images\src\STM32_Midium\image_Label_STM32CubeF7.cpp;..\..\generated\images\src\STM32_Midium\image_Label_STM32CubeG0.cpp;..\..\generated\images\src\STM32_Midium\image_Label_STM32CubeH7.cpp;..\..\generated\images\src\STM32_Midium\image_Label_STM32CubeL0.cpp;..\..\generated\images\src\STM32_Midium\image_Label_STM32CubeL1.cpp;..\..\generated\images\src\STM32_Midium\image_Label_STM32CubeL4.cpp;..\..\generated\images\src\STM32_Midium\image_Label_STM32CubeMP1.cpp;..\..\generated\images\src\STM32_Midium\image_Label_STM32CubeWB.cpp;..\..\generated\images\src\STM32_Midium\image_Label_STM32CubeWL.cpp;..\..\generated\images\src\STM32_Small\image_Label_STM32CubeF0_Small.cpp;..\..\generated\images\src\STM32_Small\image_Label_STM32CubeF1_Small.cpp;..\..\generated\images\src\STM32_Small\image_Label_STM32CubeF2_Small.cpp;..\..\generated\images\src\STM32_Small\image_Label_STM32CubeF3_Small.cpp;..\..\generated\images\src\STM32_Small\image_Label_STM32CubeF4_Small.cpp;..\..\generated\images\src\STM32_Small\image_Label_STM32CubeF7_Small.cpp;..\..\generated\images\src\STM32_Small\image_Label_STM32CubeG0_Small.cpp;..\..\generated\images\src\STM32_Small\image_Label_STM32CubeH7_Small.cpp;..\..\generated\images\src\STM32_Small\image_Label_STM32CubeL0_Small.cpp;..\..\generated\images\src\STM32_Small\image_Label_STM32CubeL1_Small.cpp;..\..\generated\images\src\STM32_Small\image_Label_STM32CubeL4_Small.cpp;..\..\generated\images\src\STM32_Small\image_Label_STM32CubeMP1_Small.cpp;..\..\generated\images\src\STM32_Small\image_Label_STM32CubeWB_Small.cpp;..\..\generated\images\src\STM32_Small\image_Label_STM32CubeWL_Small.cpp;..\..\generated\images\src\SVGDatabase.cpp;..\..\generated\images\src\__generated\image_light_theme_images_backgrounds_320x240_shady_waves.cpp;..\..\generated\texts\src\LanguageGb.cpp;..\..\generated\texts\src\Texts.cpp;..\..\generated\texts\src\TypedTextDatabase.cpp
+  SDL2TouchController.cpp
+  HALSDL2.cpp
+  HALSDL2_icon.cpp
+  OSWrappers.cpp
+  main.cpp
+  mainBase.cpp
+  FrontendApplication.cpp
+  FrontendApplicationBase.cpp
+  MainScreenPresenter.cpp
   MainScreenView.cpp
+  MainScreenViewBase.cpp
+  Model.cpp
+  SoftwareMJPEGDecoder.cpp
+  WheelListCenter.cpp
+  WheelListCenterBase.cpp
+  WheelListContainer.cpp
+  WheelListContainerBase.cpp
+  WheelListItem.cpp
+  WheelListItemBase.cpp
+  ModalContainer.cpp
+  ModalContainerBase.cpp
+  ApplicationFontProvider.cpp
+  CachedFont.cpp
+  FontCache.cpp
+  Font_verdana_10_4bpp_0.cpp
+  Font_verdana_10_4bpp_4.cpp
+  Font_verdana_20_4bpp_0.cpp
+  Font_verdana_40_4bpp_0.cpp
+  GeneratedFont.cpp
+  Kerning_verdana_10_4bpp.cpp
+  Kerning_verdana_20_4bpp.cpp
+  Kerning_verdana_40_4bpp.cpp
+  Table_verdana_10_4bpp.cpp
+  Table_verdana_20_4bpp.cpp
+  Table_verdana_40_4bpp.cpp
+  UnmappedDataFont.cpp
+  VectorFontRendererBuffers.cpp
+  BitmapDatabase.cpp
+  image_Border_Default.cpp
+  image_Border_Small.cpp
+  image_Exit.cpp
+  image_light_theme_images_backgrounds_shattered_rain.cpp
+  image_ModalBackground.cpp
+  image_Label_STM32CubeF0_Large.cpp
+  image_Label_STM32CubeF1_Large.cpp
+  image_Label_STM32CubeF2_Large.cpp
+  image_Label_STM32CubeF3_Large.cpp
+  image_Label_STM32CubeF4_Large.cpp
+  image_Label_STM32CubeF7_Large.cpp
+  image_Label_STM32CubeG0_Large.cpp
+  image_Label_STM32CubeH7_Large.cpp
+  image_Label_STM32CubeL0_Large.cpp
+  image_Label_STM32CubeL1_Large.cpp
+  image_Label_STM32CubeL4_Large.cpp
+  image_Label_STM32CubeMP1_Large.cpp
+  image_Label_STM32CubeWB_Large.cpp
+  image_Label_STM32CubeWL_Large.cpp
+  image_Label_STM32CubeF0.cpp
+  image_Label_STM32CubeF1.cpp
+  image_Label_STM32CubeF2.cpp
+  image_Label_STM32CubeF3.cpp
+  image_Label_STM32CubeF4.cpp
+  image_Label_STM32CubeF7.cpp
+  image_Label_STM32CubeG0.cpp
+  image_Label_STM32CubeH7.cpp
+  image_Label_STM32CubeL0.cpp
+  image_Label_STM32CubeL1.cpp
+  image_Label_STM32CubeL4.cpp
+  image_Label_STM32CubeMP1.cpp
+  image_Label_STM32CubeWB.cpp
+  image_Label_STM32CubeWL.cpp
+  image_Label_STM32CubeF0_Small.cpp
+  image_Label_STM32CubeF1_Small.cpp
+  image_Label_STM32CubeF2_Small.cpp
+  image_Label_STM32CubeF3_Small.cpp
+  image_Label_STM32CubeF4_Small.cpp
+  image_Label_STM32CubeF7_Small.cpp
+  image_Label_STM32CubeG0_Small.cpp
+  image_Label_STM32CubeH7_Small.cpp
+  image_Label_STM32CubeL0_Small.cpp
+  image_Label_STM32CubeL1_Small.cpp
+  image_Label_STM32CubeL4_Small.cpp
+  image_Label_STM32CubeMP1_Small.cpp
+  image_Label_STM32CubeWB_Small.cpp
+  image_Label_STM32CubeWL_Small.cpp
+  SVGDatabase.cpp
+  image_light_theme_images_backgrounds_320x240_shady_waves.cpp
+  LanguageGb.cpp
+  Texts.cpp
+  TypedTextDatabase.cpp
   Application.vcxproj -> C:\TouchGFXProjects\WheelListDemo\build\Debug\bin\Application.exe
